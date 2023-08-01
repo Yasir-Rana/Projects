@@ -1,0 +1,102 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 150vh; */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.uploaded-image {
+  border: 1px solid black;
+  width: 300px;
+}
+
+
+.file-input-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.file-input-label {
+  display: block;
+  text-align: center;
+}
+
+.file-input-label:before {
+  content: 'Select an Image';
+  display: block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.file-input:focus + .file-input-label:before {
+  background-color: #45a049;
+}
+
+.file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.upload-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 350px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.upload-button:hover {
+  background-color: #4d9650;
+}
+
+
+.image-analysis-container {
+  margin-top: 20px;
+}
+
+.image-details {
+  text-align: center;
+}
+
+.predictions-container {
+  margin-top: 20px;
+}
+
+.prediction {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.prediction p {
+  margin: 5px 0;
+}
+
+.prediction strong {
+  font-weight: bold;
+}

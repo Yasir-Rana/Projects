@@ -1,0 +1,52 @@
+.dashboard-container {
+    margin: 20px;
+}
+
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.not-found {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}
+
+.quiz-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.quiz-table th,
+.quiz-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.quiz-table th {
+    background-color: #f2f2f2;
+}
+
+.edit-button,
+.delete-button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    .quiz-table {
+        font-size: 14px;
+    }
+}

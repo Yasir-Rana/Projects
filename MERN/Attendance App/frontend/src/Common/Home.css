@@ -1,0 +1,15 @@
+.home-container {
+    background-image: url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-text {
+    color: #fff;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

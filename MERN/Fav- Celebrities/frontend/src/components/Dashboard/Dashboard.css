@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: hwb(0 95% 5% / 0.144);
+    padding: 10px;
+}
+
+.navbar a {
+    margin: 0 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.dashboard {
+    margin: 20px;
+}
+
+.actress-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.actress-info {
+    display: flex;
+    align-items: center;
+}
+
+.actress-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.actress-info h3 {
+    margin: 0;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.edit-button,
+.delete-button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #2980b9;
+}
+
+.edit-button {
+    background-color: #2ecc71;
+    width: 40px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}

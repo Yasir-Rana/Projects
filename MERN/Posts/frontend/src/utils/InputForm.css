@@ -1,0 +1,71 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+    position: absolute;
+    right: 12rem;
+    z-index: 2;
+
+    /* Add the following styles for responsiveness */
+    @media (max-width: 768px) {
+        /* Styles for screens up to 768px width */
+        position: relative;
+        right: auto;
+        left: auto;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    @media (min-width: 769px) and (max-width: 1120px) {
+        /* Styles for screens between 769px and 1120px width */
+        position: static;
+        margin-top: 20px;
+        width: auto;
+    }
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    /* right: 6rem; */
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.submitButton,
+.clearButton {
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.submitButton {
+    background-color: #174fe9;
+}
+
+.clearButton {
+    background-color: #f52a1c;
+}

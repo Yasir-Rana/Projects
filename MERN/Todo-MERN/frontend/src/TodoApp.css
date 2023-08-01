@@ -1,0 +1,108 @@
+.todo-app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.todo-list {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 24px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  position: relative;
+  left: 360px;
+  bottom: 12px;
+}
+
+.edit-container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.edit-button {
+  background-color: #2196f3;
+}
+
+.delete-button {
+  background-color: #e53935;
+}
+
+.save-button {
+  background-color: #2196f3;
+}
+.cancel-button {
+  background-color: #e53935;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+

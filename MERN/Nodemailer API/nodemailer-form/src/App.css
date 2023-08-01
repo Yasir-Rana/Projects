@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px;
+    font-size: 26px;
+    cursor: pointer;
+}

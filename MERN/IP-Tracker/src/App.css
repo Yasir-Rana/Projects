@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.ip-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.ip-info span {
+  font-size: 14px;
+}
